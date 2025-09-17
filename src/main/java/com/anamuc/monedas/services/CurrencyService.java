@@ -12,6 +12,7 @@ import java.util.List;
 /* *
 @moleculax
 Emilio J. Gomez
+17/09/2025
  */
 @Service // Notación que indica que es un servicio
 public class CurrencyService {
