@@ -9,6 +9,23 @@ Es un recurso útil para proyectos de desarrollo de software, aplicaciones finan
 ## Estructura:
 ```text
 monedas/
+├── src/
+│   └── main/
+│       ├── java/com.anamuc.monedas/
+│       │   ├── controller 
+│		    │	│		CurrencyRecord.java
+│       │   ├── modelo
+│		    │	│		paises.java
+│       │   └── services
+│		    │		 CurrencyService.java
+│       └── resources/
+│           ├── templates/
+│			      │ 	error/
+│			            │__		error.html
+│           │   
+│           └── monedasPaises.csv
+│			└── search.html
+├── pom.xml
 
 ```
 
