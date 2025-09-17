@@ -44,6 +44,7 @@ USD,Dólar estadounidense,Estados Unidos
 EUR,Euro,Unión Europea
 JPY,Yen japonés,Japón
 GBP,Libra esterlina,Reino Unido
-...
+```
 
+[Visita mi Blog ](https://moleculax.blogspot.com)
 
