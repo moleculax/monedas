@@ -7,20 +7,13 @@ Es un recurso útil para proyectos de desarrollo de software, aplicaciones finan
 
 
 ## Estructura:
+```text
 monedas/
-├── src/
-│   └── main/
-│       ├── java/com.example.currency/
-│       │   ├── CurrencyRecord.java
-│       │   ├── CurrencyService.java
-│       │   └── CurrencyController.java
-│       └── resources/
-│           ├── templates/
-│           │   └── search.html
-│           └── data.csv
-├── pom.xml
+
+```
 
 
+![Pantallazo](https://github.com/moleculax/monedas/blob/main/src/main/resources/templates/pantalla.png)
 ## 📂 Archivo incluido
 
   
