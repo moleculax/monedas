@@ -9,7 +9,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
-
+/* *
+@moleculax
+Emilio J. Gomez
+ */
 @Service // Notación que indica que es un servicio
 public class CurrencyService {
 
