@@ -28,7 +28,8 @@ monedas/
 ├── pom.xml
 
 ```
-
+** Ejecute y visualice **
+http://localhost:8080/
 
 ![Pantallazo](https://github.com/moleculax/monedas/blob/main/src/main/resources/templates/pantalla.png)
 ## 📂 Archivo incluido
