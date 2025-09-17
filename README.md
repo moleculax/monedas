@@ -28,6 +28,13 @@ monedas/
 ├── pom.xml
 
 ```
+## Tecnologías
+- Java 24
+- Spring Boot 3.5.x
+- Thymeleaf 3
+- Bootstrap
+
+
 ** Ejecute y visualice **
 http://localhost:8080/
 
