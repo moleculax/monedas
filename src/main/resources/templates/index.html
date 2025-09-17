@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Monedas</title>
+</head>
+<body>
+<h1>Buscar monedas por país</h1>
+<form action="/buscar" method="post">
+    <label for="pais">País:</label>
+    <input type="search" id="pais" name="pais" placeholder="Ej: Argentina" required>
+    <button type="submit">Buscar</button>
+</form>
+
+<div th:if="${resultados}">
+    <h2>Resultados para <span th:text="${pais}"></span>:</h2>
+    <ul>
+        <li th:each="moneda : ${resultados}">
+            <strong th:text="${moneda.code}"></strong> -
+            <span th:text="${moneda.name}"></span> (
+            <em th:text="${moneda.country}"></em>)
+        </li>
+    </ul>
+</div>
+
+<div th:unless="${resultados}">
+    <p>No se encontraron monedas para ese país.</p>
+</div>
+</body>
+</html>
